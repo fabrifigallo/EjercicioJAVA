@@ -1,4 +1,6 @@
-# Sin Retorno — fábrica de videos «¿Qué pasaría si…?»
+# Hasta Dónde 3D — fábrica de videos «¿Qué pasaría si…?»
+
+Canal: [@HastaDonde3D](https://www.youtube.com/@HastaDonde3D)
 
 Motor para producir videos animados en 3D, en español, del género «¿qué pasaría si… y no pudieras parar?»:
 una idea imposible que escala etapa por etapa, con un contador gigante en pantalla, narración y datos reales.
