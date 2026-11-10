@@ -42,7 +42,7 @@ const canal = leerCanal();
 const episodio = leerJSON(rutaEpisodio(nombre));
 const slug = episodio.slug || path.basename(rutaEpisodio(nombre), '.json');
 const SALIDA = path.join(RAIZ, 'salida', slug);
-const TMP = path.join(SALIDA, '.tmp');
+const TMP = path.join(SALIDA, `.tmp-${process.pid}`); // única por ejecución: se pueden correr varios renders a la vez
 fs.mkdirSync(TMP, { recursive: true });
 
 const ffmpeg = (a) => execFileSync('ffmpeg', ['-y', '-v', 'error', ...a], { stdio: ['ignore', 'inherit', 'inherit'] });
@@ -92,7 +92,7 @@ function escribirTextos() {
   console.log(`📝 Textos en salida/${slug}/ (descripcion.md, subtitulos.srt)`);
 }
 escribirTextos();
-if (soloTextos) process.exit(0);
+if (soloTextos) { fs.rmSync(TMP, { recursive: true, force: true }); process.exit(0); }
 
 // ---------------------------------------------------------------------------
 // 3. Pista de audio completa (narración + música opcional con ducking)
@@ -180,7 +180,7 @@ if (miniatura) {
   const t = m.t ?? (m.etapa != null ? datos.linea[m.etapa].inicio + 2.6 : datos.total * 0.6);
   const img = await capturar(p, t, 95);
   fs.writeFileSync(path.join(SALIDA, 'miniatura.jpg'), img);
-  await p.navegador.close(); servidor.close();
+  await p.navegador.close(); servidor.close(); fs.rmSync(TMP, { recursive: true, force: true });
   console.log(`🖼️  Miniatura: salida/${slug}/miniatura.jpg`);
   process.exit(0);
 }
@@ -192,7 +192,7 @@ if (opcion('muestras')) { // hoja de contacto: un cuadro a mitad de cada etapa
   await p.navegador.close(); servidor.close();
   const cols = 4, filas = Math.ceil(datos.linea.length / cols);
   ffmpeg(['-pattern_type', 'glob', '-i', path.join(dir, '*.jpg'), '-vf', `tile=${cols}x${filas}:padding=4`, '-frames:v', '1', path.join(SALIDA, 'muestras.jpg')]);
-  fs.rmSync(dir, { recursive: true });
+  fs.rmSync(TMP, { recursive: true, force: true });
   console.log(`🧩 Hoja de contacto: salida/${slug}/muestras.jpg`);
   process.exit(0);
 }
@@ -215,8 +215,8 @@ const t0 = Date.now();
 const reloj = setInterval(() => {
   const hechos = progreso.reduce((a, b) => a + b, 0), seg = (Date.now() - t0) / 1000;
   const resta = hechos ? (seg / hechos) * (nCuadros - hechos) : 0;
-  process.stdout.write(`\r   ${hechos}/${nCuadros} (${((hechos / nCuadros) * 100).toFixed(1)}%) · ${(hechos / seg).toFixed(1)} cuadros/s · faltan ~${formatoReloj(resta)}   `);
-}, 2000);
+  process.stdout.write(`${process.stdout.isTTY ? '\r' : '\n'}   ${hechos}/${nCuadros} (${((hechos / nCuadros) * 100).toFixed(1)}%) · ${(hechos / seg).toFixed(1)} cuadros/s · faltan ~${formatoReloj(resta)}   `);
+}, process.stdout.isTTY ? 2000 : 30000);
 
 async function renderTramo(k, c0, c1, archivo) {
   const p = await abrirPagina(ancho, alto);
@@ -259,5 +259,5 @@ const sufijo = short ? `-short-${String(short).replace(/[^0-9-]/g, '')}` : (desd
 const final = path.join(SALIDA, `${slug}${sufijo}${prueba ? '-prueba' : ''}.mp4`);
 ffmpeg(['-i', video, '-ss', desde.toFixed(3), '-t', (hasta - desde).toFixed(3), '-i', audio,
   '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', final]);
-for (const t of tramos) fs.unlinkSync(t.archivo);
+fs.rmSync(TMP, { recursive: true, force: true });
 console.log(`🎉 Video: ${path.relative(RAIZ, final)}`);
