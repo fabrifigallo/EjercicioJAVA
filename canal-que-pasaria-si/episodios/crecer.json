@@ -1,0 +1,244 @@
+{
+  "slug": "crecer",
+  "titulo": "¿Qué pasaría si crecieras y no pudieras parar?",
+  "titulosAlternativos": [
+    "Creces sin parar: del espejo a la galaxia",
+    "Te despiertas creciendo y no puedes parar",
+    "Más alto que el Everest, que la Tierra y que el Sol"
+  ],
+  "descripcion": "Te despiertas y mides un poco más que ayer. Y al día siguiente, más. Creces hasta superar al hombre más alto de la historia, a la ballena azul, a la Torre Eiffel, al Everest, a la Tierra, al Sol… y a la galaxia entera.",
+  "etiquetas": [
+    "escala",
+    "tamaño del universo",
+    "ley del cuadrado cubo",
+    "gigante",
+    "comparación de tamaños"
+  ],
+  "etiqueta": "Tu altura",
+  "subtitulo": "y sigues creciendo",
+  "formato": "distancia",
+  "miniatura": {
+    "etapa": 8,
+    "texto": "Creces y <em>no puedes parar</em>"
+  },
+  "etapas": [
+    {
+      "titulo": "Algo no cuadra",
+      "valor": 1.7,
+      "escena": {
+        "objetos": [
+          "carretera",
+          "edificios",
+          "postes",
+          "arboles",
+          "montanas",
+          "nubes"
+        ],
+        "altura": 1.581,
+        "mirar": -4.0,
+        "velocidad": 1.4
+      },
+      "texto": "Te despiertas una mañana cualquiera, te paras frente al espejo y algo no cuadra. La ropa te queda un poco justa. Sales a la calle y las puertas parecen más bajas. Mides un metro setenta, y unos centímetros más que ayer. Estás creciendo. Y no puedes parar."
+    },
+    {
+      "titulo": "Récord humano",
+      "valor": 2.72,
+      "escena": {
+        "altura": 2.5296000000000003,
+        "mirar": -5.5,
+        "velocidad": 2.2399999999999998
+      },
+      "texto": "Dos metros setenta y dos. Acabas de igualar a Robert Wadlow, el hombre más alto de la historia registrada. Ya no entras por ninguna puerta, tienes que agacharte para mirar dentro de un autobús y la gente se detiene en la calle para sacarte fotos."
+    },
+    {
+      "titulo": "Tan alto como una jirafa",
+      "valor": 5.5,
+      "escena": {
+        "altura": 5.115,
+        "mirar": -7.8,
+        "velocidad": 4.529411764705882
+      },
+      "texto": "Cinco metros y medio, la altura de una jirafa. Y aparece un problema que la física conoce muy bien: la ley del cuadrado y el cubo. Si duplicas tu altura, tu peso se multiplica por ocho, pero la fuerza de tus huesos solo por cuatro. A esta escala, tus piernas deberían estar crujiendo."
+    },
+    {
+      "titulo": "Cuarto piso",
+      "valor": 12,
+      "escena": {
+        "altura": 11.16,
+        "mirar": -10.3,
+        "velocidad": 9.88235294117647
+      },
+      "texto": "Doce metros. Tus ojos están a la altura de un cuarto piso y pesas unas veinticinco toneladas. Para seguir con el experimento, imaginemos que tu cuerpo se adapta mágicamente y aguanta. Los autos parecen juguetes a tus pies, y la gente te mira desde las ventanas."
+    },
+    {
+      "titulo": "Ballena azul",
+      "valor": 30,
+      "escena": {
+        "altura": 27.900000000000002,
+        "mirar": -13.3,
+        "velocidad": 24.705882352941178
+      },
+      "texto": "Treinta metros. Mides lo mismo que una ballena azul, el animal más grande que ha existido jamás, más grande que cualquier dinosaurio conocido. Y tu corazón late cada vez más lento: en los animales grandes, el pulso es mucho más pausado. El de una ballena azul puede bajar a dos latidos por minuto."
+    },
+    {
+      "titulo": "El árbol más alto",
+      "valor": 116,
+      "escena": {
+        "altura": 107.88000000000001,
+        "mirar": -17.7,
+        "velocidad": 95.52941176470587
+      },
+      "texto": "Ciento dieciséis metros. Eres más alto que Hyperion, una secuoya roja de California y el árbol vivo más alto que se conoce. Cada paso tuyo mide casi cincuenta metros. Cruzas una manzana entera de una zancada, y los edificios te llegan a la cintura."
+    },
+    {
+      "titulo": "Torre Eiffel",
+      "valor": 330,
+      "escena": {
+        "altura": 306.90000000000003,
+        "mirar": -21.1,
+        "velocidad": 271.7647058823529
+      },
+      "texto": "Trescientos treinta metros. La altura de la Torre Eiffel. Pesas alrededor de medio millón de toneladas, como cinco portaaviones juntos. Cada paso que das hace temblar el suelo, y los sismógrafos de la zona lo registran como un pequeño terremoto."
+    },
+    {
+      "titulo": "Burj Khalifa",
+      "valor": 828,
+      "escena": {
+        "objetos": [
+          "carretera",
+          "edificios",
+          "arboles",
+          "montanas",
+          "nubes"
+        ],
+        "altura": 770.0400000000001,
+        "mirar": -24.1,
+        "velocidad": 681.8823529411764
+      },
+      "texto": "Ochocientos veintiocho metros. Eres tan alto como el Burj Khalifa, en Dubái, el edificio terminado más alto del mundo. Desde aquí arriba ves a más de cien kilómetros a la redonda. Y el aire alrededor de tu cabeza ya está unos cinco grados más frío que en tus pies."
+    },
+    {
+      "titulo": "Entre las nubes",
+      "valor": 2000,
+      "escena": {
+        "altura": 1860.0,
+        "mirar": -27.0,
+        "velocidad": 1647.0588235294117
+      },
+      "texto": "Dos kilómetros. Tu cabeza atraviesa las nubes bajas. Cuando llueve, ves la tormenta desde arriba. Los aviones que despegan del aeropuerto pasan a la altura de tu pecho, y los controladores aéreos tienen un problema nuevo: tú."
+    },
+    {
+      "titulo": "Everest",
+      "valor": 8849,
+      "escena": {
+        "objetos": [
+          "carretera",
+          "montanas",
+          "nubes"
+        ],
+        "altura": 8229.57,
+        "mirar": -31.8,
+        "velocidad": 7287.411764705882
+      },
+      "texto": "Ocho mil ochocientos cuarenta y nueve metros, la altura del Everest. Aquí arriba el aire tiene solo un tercio del oxígeno que hay al nivel del mar: los montañistas lo llaman la zona de la muerte. Alrededor de tu cabeza hace cuarenta grados bajo cero, y los aviones comerciales vuelan a la altura de tus ojos."
+    },
+    {
+      "titulo": "Línea de Kármán",
+      "valor": 100000,
+      "escena": {
+        "objetos": [
+          "carretera",
+          "tierra"
+        ],
+        "altura": 93000.0,
+        "mirar": -12.7,
+        "velocidad": 1000
+      },
+      "texto": "Cien kilómetros. La línea de Kármán, la frontera donde muchos consideran que empieza el espacio. Tu cabeza está, oficialmente, fuera de la Tierra. Desde aquí ya se nota que el planeta es curvo, y el cielo sobre ti es completamente negro, aunque abajo sea de día."
+    },
+    {
+      "titulo": "Estación Espacial",
+      "valor": 400000,
+      "escena": {
+        "altura": 372000.0,
+        "mirar": -22.1,
+        "velocidad": 1000
+      },
+      "texto": "Cuatrocientos kilómetros. La Estación Espacial Internacional pasa zumbando alrededor de tu cabeza, a veintiocho mil kilómetros por hora. Y hay un problema curioso: si alguien te pisa un pie, la señal nerviosa, que viaja a unos cien metros por segundo, tardaría más de una hora en llegar a tu cerebro."
+    },
+    {
+      "titulo": "Como el planeta",
+      "valor": 12742000,
+      "escena": {
+        "objetos": [
+          "tierra",
+          "luna"
+        ],
+        "altura": 11850060.0,
+        "mirar": -72.5,
+        "velocidad": 1000
+      },
+      "texto": "Doce mil setecientos cuarenta y dos kilómetros. Eres tan alto como el diámetro de la Tierra. Ya no estás parado sobre el planeta: el planeta es una pelota a tus pies. Tu masa sería casi la mitad de la de la Luna, y tu propia gravedad empezaría a deformar la Tierra. Seguimos imaginando que nada de eso pasa."
+    },
+    {
+      "titulo": "Hasta la Luna",
+      "valor": 384400000,
+      "escena": {
+        "altura": 357492000.0,
+        "mirar": -8,
+        "velocidad": 1000,
+        "ambiente": "espacio"
+      },
+      "texto": "Trescientos ochenta y cuatro mil kilómetros. La distancia a la Luna. Podrías apoyar los pies en la Tierra y la cabeza en la Luna. La luz tarda más de un segundo en recorrer tu cuerpo: si alguien te mira los pies y después la cabeza, está viendo dos momentos distintos."
+    },
+    {
+      "titulo": "Tan grande como el Sol",
+      "valor": 1392000000.0,
+      "escena": {
+        "objetos": [],
+        "altura": 1294560000.0,
+        "mirar": -8,
+        "velocidad": 1000,
+        "ambiente": "espacio"
+      },
+      "texto": "Un millón trescientos noventa y dos mil kilómetros. Eres tan alto como el diámetro del Sol. Dentro del Sol cabrían más de un millón de Tierras. Y aun así, el Sol es una estrella bastante común, ni de las más grandes ni de las más pequeñas."
+    },
+    {
+      "titulo": "Una unidad astronómica",
+      "valor": 149600000000.0,
+      "escena": {
+        "altura": 2000000000.0,
+        "mirar": -8,
+        "velocidad": 1000,
+        "ambiente": "espacio"
+      },
+      "texto": "Ciento cincuenta millones de kilómetros. La distancia entre la Tierra y el Sol. La luz tarda ocho minutos y veinte segundos en ir de tus pies a tu cabeza. Toda la órbita de la Tierra cabría entre tus brazos abiertos."
+    },
+    {
+      "titulo": "Un año luz",
+      "valor": 9460700000000000.0,
+      "escena": {
+        "altura": 2000000000.0,
+        "mirar": -8,
+        "velocidad": 1000,
+        "ambiente": "espacio"
+      },
+      "texto": "Un año luz: nueve billones y medio de kilómetros. La estrella más cercana, Próxima Centauri, todavía está a más de cuatro veces tu altura. Si movieras un dedo, la luz tardaría un año entero en avisarle a tu cabeza que lo hiciste."
+    },
+    {
+      "titulo": "La galaxia a tus pies",
+      "valor": 9.4607e+20,
+      "escena": {
+        "objetos": [
+          "galaxia"
+        ],
+        "altura": 2000000000.0,
+        "mirar": -8,
+        "velocidad": 1000,
+        "ambiente": "espacio"
+      },
+      "texto": "Cien mil años luz. El tamaño de la Vía Láctea. Tu cuerpo abarca la galaxia entera, con sus cientos de miles de millones de estrellas, y cada una de ellas podría tener planetas, y quizás alguien mirando hacia arriba. Y aun así, el universo observable es casi un millón de veces más grande. Y tú… sigues creciendo.",
+      "duracionMinima": 14
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+node_modules/
+salida/
+cache/
+musica/*
+!musica/LEEME.md
+.env

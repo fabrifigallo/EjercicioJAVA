@@ -1,0 +1,263 @@
+{
+  "slug": "velocidad",
+  "titulo": "¿Qué pasaría si aceleraras y no pudieras frenar?",
+  "titulosAlternativos": [
+    "Tu auto acelera sin parar: esto es lo que verías",
+    "Aceleras y ya no puedes frenar… hasta la velocidad de la luz",
+    "De 20 km/h a la velocidad de la luz en un solo viaje"
+  ],
+  "descripcion": "Te subes al auto, pisas el acelerador… y el pedal se traba. No puedes frenar, no puedes bajar la velocidad y no puedes salir. ¿Hasta dónde llegarías? Recorremos cada récord de velocidad: trenes bala, la barrera del sonido, el Concorde, el SR-71, la órbita de la Tierra y el límite final del universo.",
+  "etiquetas": [
+    "velocidad",
+    "velocidad de la luz",
+    "barrera del sonido",
+    "relatividad",
+    "récords de velocidad"
+  ],
+  "etiqueta": "Tu velocidad",
+  "subtitulo": "y sigue aumentando",
+  "unidad": "km/h",
+  "formato": "numero",
+  "completo": true,
+  "miniatura": {
+    "etapa": 8,
+    "texto": "Aceleras y <em>no puedes frenar</em>"
+  },
+  "etapas": [
+    {
+      "titulo": "El pedal se traba",
+      "valor": 20,
+      "escena": {
+        "ambiente": "dia",
+        "velocidad": 6,
+        "objetos": [
+          "carretera",
+          "arboles",
+          "postes",
+          "montanas",
+          "nubes"
+        ]
+      },
+      "texto": "Te subes al auto, giras la llave y pisas suavemente el acelerador. Todo normal. Pero cuando intentas soltarlo, el pedal no sube. Está trabado. Pisas el freno: nada. Y el auto, poco a poco, empieza a ir cada vez más rápido. No puedes frenar, no puedes bajarte y no hay vuelta atrás. Veamos hasta dónde llegas."
+    },
+    {
+      "titulo": "Velocidad de ciudad",
+      "valor": 60,
+      "escena": {
+        "velocidad": 17,
+        "objetos": [
+          "carretera",
+          "edificios",
+          "postes",
+          "nubes",
+          "montanas"
+        ]
+      },
+      "texto": "Sesenta kilómetros por hora. Es el límite de muchas ciudades, y no es casualidad: si un auto atropella a una persona a treinta, casi siempre sobrevive. A sesenta, la mayoría no lo hace. Por suerte, la calle está vacía. Los semáforos pasan uno tras otro, y tú solo puedes agarrar el volante y esperar."
+    },
+    {
+      "titulo": "Autopista",
+      "valor": 120,
+      "escena": {
+        "velocidad": 33,
+        "objetos": [
+          "carretera",
+          "arboles",
+          "postes",
+          "montanas",
+          "nubes"
+        ]
+      },
+      "texto": "Ciento veinte. Velocidad de autopista. Ahora, para detener el auto haría falta más de un campo de fútbol: casi un segundo solo en reaccionar y unos ochenta metros más de frenado. Pero ese no es tu problema. Tu problema es que la aguja sigue subiendo."
+    },
+    {
+      "titulo": "El aire empieza a pesar",
+      "valor": 200,
+      "escena": {
+        "velocidad": 55,
+        "fov": 66,
+        "temblor": 0.1
+      },
+      "texto": "Doscientos kilómetros por hora. A esta velocidad, el enemigo es el aire. La resistencia del aire crece con el cuadrado de la velocidad: al doble de rápido, el aire empuja cuatro veces más fuerte. Y la potencia necesaria para vencerlo se multiplica por ocho. Tu motor, misteriosamente, no se queja."
+    },
+    {
+      "titulo": "Tren bala",
+      "valor": 300,
+      "escena": {
+        "velocidad": 83,
+        "fov": 70,
+        "temblor": 0.2,
+        "lineas": 0.1
+      },
+      "texto": "Trescientos. Ya vas tan rápido como un tren bala en Japón o un tren de alta velocidad en Europa. Pero ellos van sobre rieles. Tú vas sobre cuatro neumáticos de calle, que en su mayoría no están diseñados para pasar de esta velocidad. Desde aquí, imaginemos algo: tu auto es indestructible, y tú también."
+    },
+    {
+      "titulo": "Superdeportivos",
+      "valor": 400,
+      "escena": {
+        "velocidad": 110,
+        "lineas": 0.2
+      },
+      "texto": "Cuatrocientos kilómetros por hora. Solo un puñado de autos en el mundo puede llegar aquí. En 2019, un Bugatti modificado superó los cuatrocientos noventa en una pista de pruebas en Alemania. Recorres más de cien metros por segundo. Un árbol aparece en el horizonte y desaparece antes de que puedas mirarlo."
+    },
+    {
+      "titulo": "Más rápido que un tren levitando",
+      "valor": 600,
+      "escena": {
+        "ambiente": "desierto",
+        "velocidad": 160,
+        "objetos": [
+          "carretera",
+          "postes",
+          "montanas",
+          "nubes"
+        ]
+      },
+      "texto": "Seiscientos. Has llegado a un desierto plano, y está bien, porque ya no puedes girar sin volcar. A esta velocidad solo ha viajado un vehículo con pasajeros sobre tierra: un tren de levitación magnética japonés, que en 2015 alcanzó seiscientos tres kilómetros por hora. Y él flotaba sobre imanes."
+    },
+    {
+      "titulo": "Como un avión",
+      "valor": 900,
+      "escena": {
+        "velocidad": 220,
+        "fov": 74,
+        "lineas": 0.35,
+        "temblor": 0.3
+      },
+      "texto": "Novecientos kilómetros por hora. Es la velocidad de crucero de un avión comercial. La diferencia es que el avión va a once kilómetros de altura, donde el aire es cuatro veces menos denso. Tú vas pegado al suelo, empujando el aire más espeso del planeta. Y se acerca algo que ninguna rueda debería tocar."
+    },
+    {
+      "titulo": "La barrera del sonido",
+      "valor": 1235,
+      "escena": {
+        "velocidad": 300,
+        "temblor": 0.7,
+        "lineas": 0.5
+      },
+      "texto": "Mil doscientos treinta y cinco kilómetros por hora. La velocidad del sonido. El aire ya no puede apartarse a tiempo, se comprime frente a ti y se forma una onda de choque. Afuera, la gente escucha un estruendo como un trueno: el estampido sónico. Solo un auto lo ha logrado: el Thrust SSC, en 1997, en un desierto de Estados Unidos."
+    },
+    {
+      "titulo": "Concorde",
+      "valor": 2200,
+      "escena": {
+        "ambiente": "atardecer",
+        "velocidad": 420,
+        "fov": 78,
+        "lineas": 0.6,
+        "temblor": 0.4,
+        "calor": 0.15
+      },
+      "texto": "Dos mil doscientos. Ahora vas como el Concorde, el avión de pasajeros que cruzaba el Atlántico en tres horas y media. A esta velocidad, la fricción con el aire calentaba su nariz a más de cien grados, y el avión se estiraba varios centímetros por el calor. Tu auto, al nivel del suelo, se calienta mucho más."
+    },
+    {
+      "titulo": "SR-71 Blackbird",
+      "valor": 3500,
+      "escena": {
+        "velocidad": 600,
+        "lineas": 0.7,
+        "calor": 0.35
+      },
+      "texto": "Tres mil quinientos kilómetros por hora. El récord del avión a reacción tripulado más rápido de la historia, el SR-71 Blackbird, está cerca de aquí. Su fuselaje superaba los trescientos grados, y estaba diseñado con juntas que goteaban combustible en tierra, porque solo se sellaban al dilatarse en pleno vuelo."
+    },
+    {
+      "titulo": "Hipersónico",
+      "valor": 7000,
+      "escena": {
+        "velocidad": 900,
+        "fov": 84,
+        "lineas": 0.85,
+        "temblor": 0.5,
+        "calor": 0.6
+      },
+      "texto": "Siete mil. Velocidad hipersónica, más de cinco veces la del sonido. En 1967, el avión cohete X-15 alcanzó siete mil doscientos setenta y cuatro kilómetros por hora, y el calor le quemó parte de la cola. A tu alrededor, el aire está tan caliente que empieza a brillar. Si alguien te viera desde lejos, pensaría que eres un meteorito."
+    },
+    {
+      "titulo": "Bola de fuego",
+      "valor": 11000,
+      "escena": {
+        "ambiente": "noche",
+        "velocidad": 1300,
+        "lineas": 1,
+        "temblor": 0.6,
+        "calor": 0.9
+      },
+      "texto": "Once mil kilómetros por hora. Ya es de noche, pero tú iluminas el desierto. El aire frente a ti se convierte en plasma, un gas tan caliente que sus átomos pierden electrones. Es lo mismo que rodea a una cápsula espacial cuando vuelve a la Tierra. Y entonces, algo cambia. El suelo empieza a alejarse."
+    },
+    {
+      "titulo": "Órbita",
+      "valor": 28000,
+      "escena": {
+        "ambiente": "espacio",
+        "altura": 400000,
+        "mirar": -20,
+        "velocidad": 7700,
+        "fov": 60,
+        "lineas": 0,
+        "temblor": 0,
+        "objetos": [
+          "carretera",
+          "tierra"
+        ],
+        "calor": 0
+      },
+      "texto": "Veintiocho mil kilómetros por hora. Ocurre algo increíble: la Tierra es redonda, y vas tan rápido que, mientras caes, el suelo se curva hacia abajo al mismo ritmo. Nunca llegas a tocarlo. Estás en órbita, a la misma velocidad que la Estación Espacial Internacional. Das una vuelta completa al planeta cada noventa minutos."
+    },
+    {
+      "titulo": "Velocidad de escape",
+      "valor": 40300,
+      "escena": {
+        "altura": 30000000,
+        "mirar": -78,
+        "velocidad": 10000
+      },
+      "texto": "Cuarenta mil trescientos kilómetros por hora. La velocidad de escape. A partir de aquí, la gravedad de la Tierra ya no puede retenerte. El planeta se hace cada vez más pequeño detrás de ti. Todo lo que conoces, cada persona que has visto, cabe ahora en una pequeña esfera azul. Y no vas a volver."
+    },
+    {
+      "titulo": "Tan rápido como la Tierra",
+      "valor": 107000,
+      "escena": {
+        "altura": 300000000,
+        "mirar": -85
+      },
+      "texto": "Ciento siete mil kilómetros por hora. Parece una locura, pero tú ya ibas a esta velocidad antes de subirte al auto. Es la velocidad a la que la Tierra gira alrededor del Sol. Todos viajamos así, todo el tiempo, sin darnos cuenta. La única diferencia es que ahora tú vas solo."
+    },
+    {
+      "titulo": "El objeto más rápido",
+      "valor": 690000,
+      "escena": {
+        "altura": 1000000000,
+        "mirar": 0,
+        "objetos": [],
+        "lineas": 0.5
+      },
+      "texto": "Seiscientos noventa mil kilómetros por hora. Acabas de igualar a la Parker Solar Probe, la sonda que en 2024 se convirtió en el objeto más rápido jamás construido por humanos, rozando el Sol. A esta velocidad irías de Buenos Aires a Madrid en menos de un minuto."
+    },
+    {
+      "titulo": "Un décimo de la luz",
+      "valor": 108000000,
+      "escena": {
+        "lineas": 0.8
+      },
+      "texto": "Ciento ocho millones de kilómetros por hora. El diez por ciento de la velocidad de la luz. La Luna, que a los astronautas del Apolo les tomó tres días alcanzar, ahora está a trece segundos de distancia. Y aun así, la estrella más cercana te queda a más de cuarenta años de viaje."
+    },
+    {
+      "titulo": "El tiempo se estira",
+      "valor": 1068000000,
+      "escena": {
+        "lineas": 1,
+        "fov": 90
+      },
+      "texto": "Mil sesenta y ocho millones de kilómetros por hora. El noventa y nueve por ciento de la velocidad de la luz. Aquí la física se vuelve extraña: para ti, el tiempo pasa más lento. Cada año que vives dentro del auto, en la Tierra pasan unos siete. Tus amigos envejecen y tú no."
+    },
+    {
+      "titulo": "El límite",
+      "valor": 1079000000,
+      "hasta": 1079252000,
+      "escena": {
+        "fov": 95
+      },
+      "duracionMinima": 14,
+      "texto": "Y aquí está el final del camino. La velocidad de la luz: mil setenta y nueve millones doscientos cincuenta y dos mil ochocientos cuarenta y nueve kilómetros por hora. Puedes seguir acelerando para siempre, pero nunca la alcanzarás. Cada vez cuesta más energía ganar un poco más, y el contador solo suma decimales. Has llegado al límite del universo. Y el pedal sigue trabado."
+    }
+  ]
+}
